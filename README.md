@@ -17,3 +17,4 @@ We will evaluate the performance of these models and make a recommendation on wh
 - The balanced accuracy score is 63.39%.
 - The high_risk precision is about 1% only with 60% sensitivity which makes a F1 of 2% only.
 - Due to the high number of the low_risk population, its precision is almost 100% with a sensitivity of 67%.
+![img1]()
