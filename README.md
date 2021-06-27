@@ -12,7 +12,7 @@ We will evaluate the performance of these models and make a recommendation on wh
 
 ## Results (Balanced Accuracy Scores, Confusion Matrixes and Imbalanced Classification Reports)
 
-### RandomOverSampler model
+### Oversampling Model
 
 - The balanced accuracy score is 63.39%.
 - The high_risk precision is about 1% only with 60% sensitivity which makes a F1 of 2% only.
@@ -25,10 +25,16 @@ We will evaluate the performance of these models and make a recommendation on wh
 ### SMOTE Model
 
 The results are pretty similar to the previous model.
-The balanced accuracy score is 63.07%.
-The high_risk precision is about 1% only with 60% sensitivity which makes a F1 of 2% only.
+- The balanced accuracy score is 63.07%.
+- The high_risk precision is about 1% only with 60% sensitivity which makes a F1 of 2% only.
 Due to the high number of the low_risk population, its precision is almost 100% with a sensitivity of 66%.
 
 ![img2.1](https://github.com/ritwikthakar/Module-17-Credit-Risk/blob/main/img_2.1.PNG)
 ![img2.2](https://github.com/ritwikthakar/Module-17-Credit-Risk/blob/main/img_2.2.PNG)
 ![img2.3](https://github.com/ritwikthakar/Module-17-Credit-Risk/blob/main/img_2.3.PNG)
+
+### Undersampling Model
+
+Here the balanced accuracy score is down to about 52.95%.
+The high_risk precision is still 1% only with 61% sensitivity which makes a F1 of 1%.
+Due to the high number of false positives, the low_risk sensitivity is only 45%.
