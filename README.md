@@ -21,3 +21,14 @@ We will evaluate the performance of these models and make a recommendation on wh
 ![img1.1](https://github.com/ritwikthakar/Module-17-Credit-Risk/blob/main/img_1.PNG)
 ![img1.2](https://github.com/ritwikthakar/Module-17-Credit-Risk/blob/main/img_1.2.PNG)
 ![img1.1.3](https://github.com/ritwikthakar/Module-17-Credit-Risk/blob/main/img_1.3.PNG)
+
+### SMOTE Model
+
+The results are pretty similar to the previous model.
+The balanced accuracy score is 63.07%.
+The high_risk precision is about 1% only with 60% sensitivity which makes a F1 of 2% only.
+Due to the high number of the low_risk population, its precision is almost 100% with a sensitivity of 66%.
+
+![img2.1](https://github.com/ritwikthakar/Module-17-Credit-Risk/blob/main/img_2.1.PNG)
+![img2.2](https://github.com/ritwikthakar/Module-17-Credit-Risk/blob/main/img_2.2.PNG)
+![img2.3](https://github.com/ritwikthakar/Module-17-Credit-Risk/blob/main/img_2.3.PNG)
