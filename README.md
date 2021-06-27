@@ -38,3 +38,7 @@ Due to the high number of the low_risk population, its precision is almost 100% 
 Here the balanced accuracy score is down to about 52.95%.
 The high_risk precision is still 1% only with 61% sensitivity which makes a F1 of 1%.
 Due to the high number of false positives, the low_risk sensitivity is only 45%.
+
+![img3.1](https://github.com/ritwikthakar/Module-17-Credit-Risk/blob/main/img_3.1.PNG)
+![img3.2](https://github.com/ritwikthakar/Module-17-Credit-Risk/blob/main/img_3.2.PNG)
+![img3.3](https://github.com/ritwikthakar/Module-17-Credit-Risk/blob/main/img_3.3.PNG)
