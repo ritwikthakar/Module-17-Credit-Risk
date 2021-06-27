@@ -53,3 +53,10 @@ Due to the high number of false positives, the low_risk sensitivity is 55%.
 ![img4.2](https://github.com/ritwikthakar/Module-17-Credit-Risk/blob/main/img_4.2.PNG)
 ![img4.3](https://github.com/ritwikthakar/Module-17-Credit-Risk/blob/main/img_4.3.PNG)
 
+### BalancedRandomForestClassifier model
+
+The balanced accuracy score improved to about 78.77%.
+The high_risk precision is still low at 4% only with 67% sensitivity which makes a F1 of only 7%.
+Due to a lower number of false positives, the low_risk sensitivity is now 91% with 100% presicion.
+
+
