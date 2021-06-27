@@ -59,4 +59,14 @@ The balanced accuracy score improved to about 78.77%.
 The high_risk precision is still low at 4% only with 67% sensitivity which makes a F1 of only 7%.
 Due to a lower number of false positives, the low_risk sensitivity is now 91% with 100% presicion.
 
+![img5.1](https://github.com/ritwikthakar/Module-17-Credit-Risk/blob/main/img_5.1.PNG)
+![img5.2](https://github.com/ritwikthakar/Module-17-Credit-Risk/blob/main/img_5.2.PNG)
+![img5.3](https://github.com/ritwikthakar/Module-17-Credit-Risk/blob/main/img_5.3.PNG)
+
+### EasyEnsembleClassifier model
+
+Now, the balanced accuracy score is high to about 92.54%.
+The high_risk precision is still low at 7% only with 91% sensitivity which makes a F1 of only 14%.
+Due to a lower number of false positives, the low_risk sensitivity is now 94% with 100% presicion.
+
 
