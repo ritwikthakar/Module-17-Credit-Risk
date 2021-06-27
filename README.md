@@ -42,3 +42,10 @@ Due to the high number of false positives, the low_risk sensitivity is only 45%.
 ![img3.1](https://github.com/ritwikthakar/Module-17-Credit-Risk/blob/main/img_3.1.PNG)
 ![img3.2](https://github.com/ritwikthakar/Module-17-Credit-Risk/blob/main/img_3.2.PNG)
 ![img3.3](https://github.com/ritwikthakar/Module-17-Credit-Risk/blob/main/img_3.3.PNG)
+
+### Combination
+
+The balanced accuracy score is about 62.3%.
+The high_risk precision is still 1% only with 70% sensitivity which makes a F1 of only 2%.
+Due to the high number of false positives, the low_risk sensitivity is 55%.
+
