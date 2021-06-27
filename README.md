@@ -35,9 +35,9 @@ Due to the high number of the low_risk population, its precision is almost 100% 
 
 ### Undersampling Model
 
-Here the balanced accuracy score is down to about 52.95%.
-The high_risk precision is still 1% only with 61% sensitivity which makes a F1 of 1%.
-Due to the high number of false positives, the low_risk sensitivity is only 45%.
+- Here the balanced accuracy score is down to about 52.95%.
+- The high_risk precision is still 1% only with 61% sensitivity which makes a F1 of 1%.
+- Due to the high number of false positives, the low_risk sensitivity is only 45%.
 
 ![img3.1](https://github.com/ritwikthakar/Module-17-Credit-Risk/blob/main/img_3.1.PNG)
 ![img3.2](https://github.com/ritwikthakar/Module-17-Credit-Risk/blob/main/img_3.2.PNG)
@@ -45,9 +45,9 @@ Due to the high number of false positives, the low_risk sensitivity is only 45%.
 
 ### Combination
 
-The balanced accuracy score is about 62.3%.
-The high_risk precision is still 1% only with 70% sensitivity which makes a F1 of only 2%.
-Due to the high number of false positives, the low_risk sensitivity is 55%.
+- The balanced accuracy score is about 62.3%.
+- The high_risk precision is still 1% only with 70% sensitivity which makes a F1 of only 2%.
+- Due to the high number of false positives, the low_risk sensitivity is 55%.
 
 ![img4.1](https://github.com/ritwikthakar/Module-17-Credit-Risk/blob/main/img_4.1.PNG)
 ![img4.2](https://github.com/ritwikthakar/Module-17-Credit-Risk/blob/main/img_4.2.PNG)
@@ -55,9 +55,9 @@ Due to the high number of false positives, the low_risk sensitivity is 55%.
 
 ### BalancedRandomForestClassifier model
 
-The balanced accuracy score improved to about 78.77%.
-The high_risk precision is still low at 4% only with 67% sensitivity which makes a F1 of only 7%.
-Due to a lower number of false positives, the low_risk sensitivity is now 91% with 100% presicion.
+- The balanced accuracy score improved to about 78.77%.
+- The high_risk precision is still low at 4% only with 67% sensitivity which makes a F1 of only 7%.
+- Due to a lower number of false positives, the low_risk sensitivity is now 91% with 100% presicion.
 
 ![img5.1](https://github.com/ritwikthakar/Module-17-Credit-Risk/blob/main/img_5.1.PNG)
 ![img5.2](https://github.com/ritwikthakar/Module-17-Credit-Risk/blob/main/img_5.2.PNG)
@@ -65,8 +65,17 @@ Due to a lower number of false positives, the low_risk sensitivity is now 91% wi
 
 ### EasyEnsembleClassifier model
 
-Now, the balanced accuracy score is high to about 92.54%.
-The high_risk precision is still low at 7% only with 91% sensitivity which makes a F1 of only 14%.
-Due to a lower number of false positives, the low_risk sensitivity is now 94% with 100% presicion.
+- Now, the balanced accuracy score is high to about 92.54%.
+- The high_risk precision is still low at 7% only with 91% sensitivity which makes a F1 of only 14%.
+- Due to a lower number of false positives, the low_risk sensitivity is now 94% with 100% presicion.
 
+![img6.1](https://github.com/ritwikthakar/Module-17-Credit-Risk/blob/main/img_6.1.PNG)
+![img6.2](https://github.com/ritwikthakar/Module-17-Credit-Risk/blob/main/img_6.2.PNG)
+![img6.3](https://github.com/ritwikthakar/Module-17-Credit-Risk/blob/main/img_6.3.PNG)
 
+## Summary
+
+All the models used to perform the credit risk analysis show weak precision in determining if a credit risk is high.
+The Ensemble models brought a lot more improvment specially on the sensitivity of the high risk credits.
+The EasyEnsembleClassifier model shows a recall of 92% so it detects almost all high risk credit. On another hand, with a low precision, a lot of low risk credits are still falsely detected as high risk which would penalize the bank's credit strategy and infer on its revenue by missing those business opportunities.
+For those reasons I would not recommend the bank to use any of these models to predict credit risk.
